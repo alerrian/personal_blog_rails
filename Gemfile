@@ -15,6 +15,9 @@ gem 'figaro'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'rspec-rails', '~> 5.0.0'
+  gem 'capybara'
+  gem 'shoulda-matchers', '~> 4.0'
 end
 
 group :development do
